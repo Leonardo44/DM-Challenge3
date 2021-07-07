@@ -1,0 +1,222 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c241a878-91b2-4223-8d49-9369cabfcb8d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Esquelas 2018</ID>
+  <Name>Esquelas 2018</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16794" scrolltop="-6852" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="37835" y="13097" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Esquelas_18102018" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4207" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00006f100000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Esquelas_18102018" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-16794</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6852</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="f122e769-7ecf-4597-901b-cecd7df7b328">
+      <ID>Esquelas 18102018</ID>
+      <Name>Esquelas 18102018</Name>
+      <DimensionID>Esquelas 18102018</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8ad2fda7-a8ec-43ef-8dfc-7cf013021720">
+          <AttributeID>Ves Nro Esquela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c1c7bb2f-fb29-4f36-9265-18fd8d68950d">
+          <AttributeID>Ves Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b03a0ed4-b7a8-4297-8079-2e1c3f63590a">
+          <AttributeID>Ves Tipo Falta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="209d6f7d-6af1-4fe0-ab43-93a902104df8">
+          <AttributeID>Ves Falta Descripcion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="beaecd4d-8320-440b-b623-a3463ebfe190">
+          <AttributeID>Ves Departamento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="971b260a-7a53-49e4-8da6-5f87df9e4f01">
+          <AttributeID>Ves Estado</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="88d3e660-5470-4e5f-bc04-2e9859bb66fb">
+          <AttributeID>Ves Estado Descripcion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9d50407-77ed-48e0-9648-412c8c39e916">
+          <AttributeID>Ves Valor</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="33a1e2d6-5d08-4d2b-a34a-68cde683637b">
+          <AttributeID>Ves Interes</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="423d6928-71f6-4e91-b537-4c8a5b84d2f4">
+      <ID>Esquelas 18102018</ID>
+      <Name>Esquelas 18102018</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="b248a38d-73d8-4e02-ac39-bca94593d06d">
+          <ID>Esquelas 18102018 Count</ID>
+          <Name>Esquelas 18102018 Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="1df0e1bf-d643-4412-b532-1b18ccecbcaf">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="bef9b1e1-2b13-43e0-b189-03d73a8509dd">
+              <TableID>dbo_Esquelas_18102018</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="93b0cef3-8eb2-4185-ab5e-29b0492680a3">
+          <CubeDimensionID>Esquelas 18102018</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="eb8022a1-50b3-4fa0-a72a-c81ffbf9ee08">
+              <AttributeID>Ves Nro Esquela</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d5edf814-97f6-414a-992b-f927f946e27c">
+                  <DataType>WChar</DataType>
+                  <DataSize>200</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b01b346d-f86a-4d64-8273-93972f49b6e7">
+                    <TableID>dbo_Esquelas_18102018</TableID>
+                    <ColumnID>Ves_x0020_Nro_x0020_Esquela</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c2b2cb39-bd4f-4b7c-bf63-c6eb902607ba">
+                  <DataType>WChar</DataType>
+                  <DataSize>200</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7626d6bf-adaf-485a-b195-b827bc4dfc92">
+                    <TableID>dbo_Esquelas_18102018</TableID>
+                    <ColumnID>Ves_x0020_Fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="13d07dcb-eec6-4c1a-8b4c-e8166a9d2353">
+                  <DataType>WChar</DataType>
+                  <DataSize>200</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3c7530eb-82e6-4d0e-83a7-d5f8ceaca89b">
+                    <TableID>dbo_Esquelas_18102018</TableID>
+                    <ColumnID>Ves_x0020_Tipo_x0020_Falta</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="cd6d3f60-d08d-49db-8713-fb904f5243e1">
+                  <DataType>WChar</DataType>
+                  <DataSize>200</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3a2ab6dc-53af-4780-bb1f-08d497386305">
+                    <TableID>dbo_Esquelas_18102018</TableID>
+                    <ColumnID>Ves_x0020_Falta_x0020_Descripcion</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="35bc609c-a3aa-4b86-967d-1cf35e516538">
+                  <DataType>WChar</DataType>
+                  <DataSize>200</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="02508921-ff2a-44ab-b5b6-57eed6cbbfcf">
+                    <TableID>dbo_Esquelas_18102018</TableID>
+                    <ColumnID>Ves_x0020_Departamento</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="e866e776-45ad-444a-9f3c-c57a4e7caf4c">
+                  <DataType>WChar</DataType>
+                  <DataSize>200</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8c683828-ce90-4bee-9ffd-100a362409a0">
+                    <TableID>dbo_Esquelas_18102018</TableID>
+                    <ColumnID>Ves_x0020_Estado</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="d70a8879-496c-47dc-bea0-26b6139870df">
+                  <DataType>WChar</DataType>
+                  <DataSize>200</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="75e7b674-8b49-471e-8a89-4c296bd774ec">
+                    <TableID>dbo_Esquelas_18102018</TableID>
+                    <ColumnID>Ves_x0020_Estado_x0020_Descripcion</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="01c8cef8-5624-45fd-af3b-8fe889bdd948">
+                  <DataType>WChar</DataType>
+                  <DataSize>200</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="01a82aae-614d-4e8e-96cb-5b8b8cb67705">
+                    <TableID>dbo_Esquelas_18102018</TableID>
+                    <ColumnID>Ves_x0020_Valor</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="d844351c-f2bf-4c0b-92b5-b107849e5f92">
+                  <DataType>WChar</DataType>
+                  <DataSize>200</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3725d7da-6993-4d75-b7ed-7254eca52a09">
+                    <TableID>dbo_Esquelas_18102018</TableID>
+                    <ColumnID>Ves_x0020_Interes</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="a4ecf3c6-c00c-4a81-9433-774186f419b2">
+    <DataSourceViewID>Esquelas 2018</DataSourceViewID>
+  </Source>
+</Cube>
