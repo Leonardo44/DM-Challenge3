@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ChangeDataChallenge3", "ChangeDataChallenge3.dtproj", "{FB730B5E-D015-45E0-AF3C-161084599EDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB730B5E-D015-45E0-AF3C-161084599EDF}.Development|Default.ActiveCfg = Development
+		{FB730B5E-D015-45E0-AF3C-161084599EDF}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C3C1A6B-0BBA-443F-B0B6-F963A2C94AD7}
+	EndGlobalSection
+EndGlobal

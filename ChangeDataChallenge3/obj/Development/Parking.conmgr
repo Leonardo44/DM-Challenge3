@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Parking"
+  DTS:DTSID="{E749CEAC-CD69-4202-8517-C6E5B71B61B8}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="22538"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="C:\Users\a1299\OneDrive\Documentos\UDB\DM\Recursos\parque_vehicular_datos_abiertos_13NOV2018.csv">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="TIPO_PLACA"
+          DTS:DTSID="{4D11F67A-895B-4F0F-8F6F-6E1D802F925C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="131"
+          DTS:DataPrecision="18"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ANIO_DE_FABRICACION"
+          DTS:DTSID="{C49A5E2C-696F-4500-9468-BFB77EC994D9}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CILINDRADA"
+          DTS:DTSID="{FFF48265-77FB-4BEA-8CA0-387C23DCB06F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="131"
+          DTS:DataPrecision="18"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CANTIDAD_DE_CILINDROS"
+          DTS:DTSID="{70C3138F-074B-4A6B-BB8E-435C4262FBD4}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="131"
+          DTS:DataPrecision="18"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CANTIDAD_DE_PUERTAS"
+          DTS:DTSID="{757C4A59-E6B4-4C5B-9BB7-B5A1B5F87FAF}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="131"
+          DTS:DataPrecision="18"
+          DTS:TextQualified="True"
+          DTS:ObjectName="VALOR_DEL_VEHICULO"
+          DTS:DTSID="{198922A7-A023-4B77-836A-BC495749A0EC}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="COLORES"
+          DTS:DTSID="{9A11E947-A7CB-46E9-9140-FE746060690E}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="7"
+          DTS:TextQualified="True"
+          DTS:ObjectName="FECHA_DE_IMPORTACION"
+          DTS:DTSID="{005FFB4F-C329-4298-BFFF-4011695460A5}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="131"
+          DTS:DataPrecision="18"
+          DTS:TextQualified="True"
+          DTS:ObjectName="IMP_VALOR_DEL_VEHICULO"
+          DTS:DTSID="{B770CF82-31EC-4186-83FD-A98352BFF2F2}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="7"
+          DTS:TextQualified="True"
+          DTS:ObjectName="FECHA_DE_INGRESO"
+          DTS:DTSID="{4A7D6506-1B07-4A89-B685-4B9B014A74FB}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="131"
+          DTS:DataPrecision="18"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ANIO_INGRESO"
+          DTS:DTSID="{40655DF0-97AA-475C-A666-1DCCABDACA5A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MES_INGRESO"
+          DTS:DTSID="{4A23B399-E697-4CC7-B57A-F6C91AF3C873}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CLASE"
+          DTS:DTSID="{36C9A476-4E86-40FA-BD97-7BF85C234EE4}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PERTENENCIA"
+          DTS:DTSID="{1BE66489-BB9F-4FD7-95F9-95ED4CA47F96}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MARCA"
+          DTS:DTSID="{8E244245-1DF8-4E7E-9B9D-184970B38ACD}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MODELO"
+          DTS:DTSID="{DF848F46-5D5D-46D8-85E2-238D695DBC3A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="131"
+          DTS:DataPrecision="18"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CAPACIDAD"
+          DTS:DTSID="{034C450F-5158-45A6-A6D4-562BBCA2FF00}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DES_CAPACIDAD"
+          DTS:DTSID="{A23B6693-942F-462A-A3A3-D80BDB01AC8C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="COMBUSTIBLE"
+          DTS:DTSID="{966D48D9-628A-4FC6-828B-869FF4D119B2}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ADUANA"
+          DTS:DTSID="{5792D10E-4EB6-41A4-8808-3E678D264475}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CONDICION_INGRESO"
+          DTS:DTSID="{F8B35435-F75B-4459-A8DD-F8CA60F00CE5}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PROPIETARIO_DEPARTAMENTO"
+          DTS:DTSID="{96811A51-6D4C-41A8-998A-C21AE580FC68}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PROPIETARIO_MUNICIPIO"
+          DTS:DTSID="{C387F895-7C69-42A5-99DD-30EDC88947C2}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ESTADO"
+          DTS:DTSID="{CB9C9EEE-A683-4843-8514-157D1F13FD69}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
